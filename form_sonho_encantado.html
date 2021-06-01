@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Formulario Sonho Encantado</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="top-header">
+        <div class="container nav-flex">
+            <div class="navbrand">
+                <a href="index.css"><img src="form"></a>
+                <h1>Sonho Encantado</h1>
+            </div>
+            <nav class="navbar">
+                <ul class="ul-flex">
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Valores</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+//começo do site
+
+    <div class="box">
+        <form action="">
+
+            <fieldset>
+                <legend><b>Formulário para contato</b></legend>
+                <br>
+
+
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome">Nome Completo</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone">Telefone</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <label for="email">Email</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="number" name="Qnt/Barracas" id="Qnt/Barracas" class="inputUser" required>
+                    <label for="Qnt/Barracas">Qnt/Barracas</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="cep" name="cep" id="cep" class="inputUser" required>
+                    <label for="cep">CEP</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="datetime-local" name="data/horario" id="data/horario" class="inputUser" required>
+                    <label for="datetime-local">Data e Horário</label>
+                </div>
+
+                <p class="ctt">Contato Via:
+            
+                <br>
+
+                <input type="radio" name="contato" value="whatsapp" required>
+                <label for="whatsapp">Whatsapp</label>
+
+                
+                <input type="radio" name="contato" value="email" required>
+                <label for="email">Email</label>
+
+                <input type="radio" name="contato" value="telegram" required>
+                <label for="telegram">telegram</label>
+                
+                </p>
+
+                <br><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="10" cols="50" maxlength="500" ></textarea>
+
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+
+
+            </fieldset>
+
+        </form>
+
+
+    </div>
+
+    <footer class="rodape">
+        <div class="container">
+            <ul class="rodape-ul">
+                <li><a href="#"><span class="icon-facebook"></span>Facebook</a></li>
+                <li><a href="#"><span class="icon-instagram"></span>Instagram</a></li>
+            </ul>
+            <p class="copy">copyright &copy; 2021</p>
+        </div>
+   
+</body>
+</html>
